@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    position: absolute;
+    top:13vh;
+    font-size: 3rem;
+    
+}
+#acender , #apagar{
+  position: absolute;
+  top: 30vw;
+  height: 5vh ;
+  width: 10vw;
+  background-color: #353535;
+  color: #ffff;
+  border-radius: 1vh;
+  box-shadow: 3px 4px 5px #050752d7;
+}
+#acender{
+    left: 70vh;
+}
+#apagar{
+    right: 70vh;
+}
